@@ -1,6 +1,6 @@
 name: myBinder-environment
 
-  channels:
+channels:
   - damianavila82
   - conda-forge
 dependencies:
