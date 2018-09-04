@@ -6,6 +6,7 @@ As computational work becomes increasingly embedded in biomedical research pract
 
 ## Launch the presentation with Binder
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/stevetsa/nlmreproducibility/master)
+click to select slides.ipynb 
 
 ## Launch the presentation with Docker
 [Install Docker in your environment](https://docs.docker.com/install/)
