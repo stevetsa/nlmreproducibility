@@ -12,7 +12,7 @@ As computational work becomes increasingly embedded in biomedical research pract
 ```{}
 git clone https://github.com/stevetsa/nlmreproducibility.git
 docker run -v `pwd`:`pwd` -w `pwd` -i -t stevetsa/nlmreproducibility
-## inside container
+## inside container - follow on screen instructions (Copy/paste this URL/token into your browser )
 ## click to select the nlmreproducibility folder
 ## click to select slides.ipynb
 ```
