@@ -6,8 +6,8 @@ As computational work becomes increasingly embedded in biomedical research pract
 
 ## Presentation
 Recording - https://youtu.be/gQ2PcxyzW7s            
-GitHub - https://github.com/stevetsa/nlmreproducibility
-Slides - https://docs.google.com/presentation/d/16f8_z6tlULBc9nXLghCp04TGyVlZzKzazUNbdprROhs/edit
+GitHub - https://github.com/stevetsa/nlmreproducibility  
+Slides - https://docs.google.com/presentation/d/16f8_z6tlULBc9nXLghCp04TGyVlZzKzazUNbdprROhs/edit  
 
 
 ## Launch the presentation with Binder
