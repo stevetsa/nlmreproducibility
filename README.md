@@ -18,7 +18,7 @@ click to select slides.ipynb
 [Install Docker in your environment](https://docs.docker.com/install/)
 ```{}
 git clone https://github.com/stevetsa/nlmreproducibility.git
-docker run -v `pwd`:`pwd` -w `pwd` -i -t stevetsa/nlmreproducibility
+docker run -v `pwd`:`pwd` -w `pwd` -i -t -p 8888:8888 stevetsa/nlmreproducibility
 ## inside container - follow on screen instructions (Copy/paste this URL/token into your browser )
 ## click to select the nlmreproducibility folder
 ## click to select slides.ipynb
