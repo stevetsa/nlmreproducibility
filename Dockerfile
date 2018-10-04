@@ -130,6 +130,7 @@ RUN fix-permissions /etc/jupyter/
 # Get notebooks
 WORKDIR  /home/$NB_USER/work
 RUN git clone https://github.com/sbl-sdsc/mmtf-workshop-2018.git
+RUN git clone https://github.com/stevetsa/nlmreproducibility.git
 WORKDIR $HOME
 
 RUN pip install RISE
