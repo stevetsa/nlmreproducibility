@@ -131,7 +131,7 @@ RUN fix-permissions /etc/jupyter/
 WORKDIR  /home/$NB_USER/work
 RUN git clone https://github.com/sbl-sdsc/mmtf-workshop-2018.git
 RUN git clone https://github.com/stevetsa/nlmreproducibility.git
-WORKDIR $HOME
+WORKDIR /home/$NB_USER/work/nlmreproducibility
 
 RUN pip install RISE
 RUN jupyter-nbextension install rise --py --sys-prefix
