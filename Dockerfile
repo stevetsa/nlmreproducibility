@@ -17,6 +17,10 @@ RUN jupyter-nbextension install rise --py --sys-prefix
 RUN pip install ipympl
 # If using JupyterLab
 # Install nodejs: https://nodejs.org/en/download/
+RUN apt-get update && apt-get -yq dist-upgrade \
+ && apt-get install -yq --no-install-recommends \
+ openjdk-8-jdk 
+ 
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
 RUN jupyter labextension install jupyter-matplotlib
 RUN jupyter labextension install jupyterlab_3dmol
