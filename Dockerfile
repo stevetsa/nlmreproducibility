@@ -19,7 +19,19 @@ RUN pip install ipympl
 # Install nodejs: https://nodejs.org/en/download/
 RUN apt-get update && apt-get -yq dist-upgrade \
  && apt-get install -yq --no-install-recommends \
- openjdk-8-jdk 
+    wget \
+    bzip2 \
+    ca-certificates \
+    sudo \
+    locales \
+    fonts-liberation \
+###
+    openjdk-8-jdk \
+    git \
+    curl \
+###
+ && apt-get clean \
+ && rm -rf /var/lib/apt/lists/*
  
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
 RUN jupyter labextension install jupyter-matplotlib
