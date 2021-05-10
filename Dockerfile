@@ -19,3 +19,4 @@ RUN pip install ipympl
 # Install nodejs: https://nodejs.org/en/download/
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
 RUN jupyter labextension install jupyter-matplotlib
+RUN jupyter labextension install jupyterlab_3dmol
