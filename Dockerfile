@@ -7,7 +7,7 @@ WORKDIR /home/$NB_USER/work/nlmreproducibility
 
 RUN pip install RISE
 RUN jupyter-nbextension install rise --py --sys-prefix
-RUN apt install --fix-broken
+
 RUN pip install ipympl
 RUN pip install install-jdk
 RUN jupyter labextension install @jupyter-widgets/jupyterlab-manager
