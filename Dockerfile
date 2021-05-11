@@ -9,7 +9,7 @@ WORKDIR /home/$NB_USER/work/nlmreproducibility
 
 #RUN conda config --add channels conda-forge
 #RUN conda install nodejs
-RUN conda install -c conda-forge/label/cf201901 nodejs
+RUN conda install -c conda-forge/label/cf201901 nodejs=15.14.0
 
 RUN pip install --upgrade pip
 RUN pip install mmtfPyspark
