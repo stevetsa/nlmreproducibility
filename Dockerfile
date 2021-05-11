@@ -7,6 +7,8 @@ WORKDIR  /home/$NB_USER/work
 RUN git clone https://github.com/stevetsa/nlmreproducibility.git
 WORKDIR /home/$NB_USER/work/nlmreproducibility
 
+RUn conda install -c conda-forge nodejs
+
 RUN pip install --upgrade pip
 RUN pip install mmtfPyspark
 RUN pip install RISE
