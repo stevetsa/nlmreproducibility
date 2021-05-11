@@ -5,6 +5,8 @@ WORKDIR  /home/$NB_USER/work
 RUN git clone https://github.com/stevetsa/nlmreproducibility.git
 WORKDIR /home/$NB_USER/work/nlmreproducibility
 
+RUN pip install --upgrade pip
+RUN pip install mmtfPyspark
 RUN pip install RISE
 RUN jupyter-nbextension install rise --py --sys-prefix
 
