@@ -1,4 +1,6 @@
-FROM jupyter/minimal-notebook:dfcb043bd887
+#FROM jupyter/minimal-notebook:dfcb043bd887
+FROM jupyter/pyspark-notebook:59c973d16bca
+
 
 # Get notebooks
 WORKDIR  /home/$NB_USER/work
